@@ -105,5 +105,16 @@ dependencies {
     }
 }
 	
-		
+	ext{
+    // Sdk and tools
+    minSdkVersion = 15
+    targetSdkVersion = 26
+    compileSdkVersion = 26
+    buildToolsVersion = '25.0.2'
+ 
+    // App dependencies
+    junitVersion = '4.12'
+    v7Version='26.1.0'
+}
+	
 ```
